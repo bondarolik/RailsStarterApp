@@ -18,6 +18,18 @@ This is a Rails starter app. Just clone, fix app name and start to use it. This 
 3. Run migrations, yarn upgrade and bundle install
 4. Start with `foreman`
 
+```bash
+git clone
+sudo mv -r RailsScratchApp YourAppName
+cd YourAppName
+# make global search for RailsScratchApp and replace it by YourAppName
+# then:
+bundle install
+yarn install --check-files
+rails db:migrate
+foreman start
+```
+
 ### Concerns and controllers
 
 Checkout branch `examples/concerns` and PostsController
