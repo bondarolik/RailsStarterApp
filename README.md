@@ -16,6 +16,22 @@ This is a Rails starter app. Just clone, fix app name and start to use it.
 3. Run migrations, yarn upgrade and bundle install
 4. Start with `foreman`
 
+### Concerns and controllers
+
+Checkout branch `examples/concerns` and PostsController
+
+```ruby
+class PostsController < ApplicationController
+  include DryController
+  include Response
+
+  private
+    def resource_params
+      params.require(:post).permit(:id, :title ,:body)
+    end
+end
+```
+
 ### Credits
 
 V. Bondaruk, RubyDroids.com
