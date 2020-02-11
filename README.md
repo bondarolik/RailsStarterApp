@@ -1,6 +1,6 @@
 # README
 
-![Ruby on Rails starter with Webpacker, Twitter Bootstrap, ActiveText and ActiveStorage ready to use](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/ruby-on-rails.jpg?1566863840 "Rails with Webpacker")
+![Ruby on Rails starter with Webpacker, Twitter Bootstrap, ActionText and ActiveStorage ready to use](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/ruby-on-rails.jpg?1566863840 "Rails with Webpacker")
 
 This is a Rails starter app. Just clone, fix app name and start to use it. This app will save you some time setting up new rails application.
 
